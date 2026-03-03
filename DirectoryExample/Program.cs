@@ -6,7 +6,10 @@ namespace DirectoryExample
     class Program
     {
         static void Main()
-        {//here we are checking folder is exist or not
+        {
+            //Directory is a predefined class.it is used to create the folders and delete the folders and rename the foldrs.a
+            //All folder related manpulations it will do.
+            //here we are checking folder is exist or not
             if (Directory.Exists(@"D:\folder1") == true)
             {//if the folder is exists delete that folder
                 Directory.Delete(@"D:\folder1", true);
